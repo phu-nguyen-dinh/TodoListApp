@@ -1,11 +1,11 @@
 body{
-  background-color: #eed0d0;
+  background-color: #a2faf3;
   overflow: hidden;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #000000;
 }
 
 .todo-wrapper {
@@ -138,4 +138,37 @@ h1 {
 .todo-content {
   display: flex;
   flex-direction: column;
+}
+
+.edit-icon{
+  font-size: 30px;
+  margin-left: 10px;
+  color:rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.edit_wrapper{
+  background-color: #414040;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_wrapper input,.edit_wrapper textarea{
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.edit_wrapper .primaryBtn{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 16px;
+  width:fit-content;
+}
+
+.edit-icon:hover{
+  color: #ffee00;
 }
